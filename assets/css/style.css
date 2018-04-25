@@ -1,17 +1,22 @@
 body {
-    background-image:  url("C:/Users/Max Power/Desktop/CBC/Assignment 3/Psychic-Game/assets/images/background-billmurray.gif")
+    background-color:#996666;
     
 }
 .container {
-    background-color: grey;
+    padding: 10px 50px 10px 50px;
+    
 }
 .psychic-game {
     color: goldenrod;
     font-size: 150%;
+    animation-name: contacani2;
+    animation-duration: 5s;
 }
 .guess {
     color: goldenrod;
     font-size: 150%;
+    animation-name: contacani3;
+    animation-duration: 7s;
 }
 .wins {
     color: goldenrod;
@@ -32,4 +37,43 @@ body {
 .pleasewait {
     color: goldenrod;
     font-size: 150%;
+    padding: 10px 0px 0px 50px;
+    animation-name: contacani;
+    animation-duration: 5s;
+}
+
+
+/* Animations CSS code below */
+
+@keyframes contacani {
+    0% {
+        padding: 10px 900px 0px 50px;
+        color: black;
+    }
+    100% {
+        padding: 10px 0px 0px 500px;
+        color:goldenrod;
+    }
+}
+
+@keyframes contacani2 {
+    0% {
+        padding: 10px 0px 0px 1200px;
+        color: black;
+    }
+    100% {
+        padding: 10px 900px 0px 50px;
+        color:goldenrod;
+    }
+}
+
+@keyframes contacani3 {
+    0% {
+        padding: 10px 50px 60px 10px;
+        color: black;
+    }
+    100% {
+        padding: 
+        color:goldenrod;
+    }
 }
