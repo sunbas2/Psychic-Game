@@ -26,19 +26,22 @@ document.onkeyup = function (event) {
             cGuess.push(userGuess);
         }
 
+       
         if (nGuess === 0) {
             nGuess = 15;
             losses ++;
             cGuess = [];
         }
-
+        
         var winSS = document.getElementById("wins");
         var lossS = document.getElementById("losses");
         var nuGue = document.getElementById("guessleft");
         var cGues = document.getElementById("yourguesses");
 
-        document.getElementById("container").innerHTML;
-
+        // document.getElementById("container").innerHTML;
+        console.log(wins, losses, nGuess, cGuess);
+        
+       // how to write to the page directly? Try winSS.innerHTML = wins 
         
 
     }
