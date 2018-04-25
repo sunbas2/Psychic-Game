@@ -1,0 +1,35 @@
+body {
+    background-image:  url("C:/Users/Max Power/Desktop/CBC/Assignment 3/Psychic-Game/assets/images/background-billmurray.gif")
+    
+}
+.container {
+    background-color: grey;
+}
+.psychic-game {
+    color: goldenrod;
+    font-size: 150%;
+}
+.guess {
+    color: goldenrod;
+    font-size: 150%;
+}
+.wins {
+    color: goldenrod;
+    font-size: 150%;
+}
+.losses {
+    color: goldenrod;
+    font-size: 150%;
+}
+.guessleft {
+    color: goldenrod;
+    font-size: 150%;
+}
+.yourguesses{
+    color: goldenrod;
+    font-size: 150%;
+}
+.pleasewait {
+    color: goldenrod;
+    font-size: 150%;
+}

@@ -9,7 +9,7 @@ document.onkeyup = function (event) {
 
     var userGuess = event.key;
 
-    var computerGuess = computerChoice[Math.floor(Math.random() * computerChoices.length)];
+    var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 
     var selection = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",];
     
@@ -32,14 +32,11 @@ document.onkeyup = function (event) {
             cGuess = [];
         }
 
-        var winSS = document.getElementById("wins");
-        var lossS = document.getElementById("losses");
-        var nuGue = document.getElementById("guessleft");
-        var cGues = document.getElementById("yourguesses");
-
-        document.getElementById("container").innerHTML;
-
-        
+       
+        document.querySelector(".wins").innerHTML = "Wins: " + wins;
+        document.querySelector(".losses").innerHTML = "Losses: " + losses;
+        document.querySelector(".guessleft").innerHTML = "Guesses Left: " + nGuess;
+        document.querySelector(".yourguesses").innerHTML = "Your Guesses so far: " + cGuess;
 
     }
 };
